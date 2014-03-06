@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Quando);
+
+@font-face {
+    font-family: "Mono Social Icons Font";
+    src: url('MonoSocialIconsFont-1.10.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { border: 0; padding: 0; margin: 0; }
+
+header {
+    width: 400px;
+    margin: 36px auto;
+    text-align: center;
+}
+
+header h1 {
+    font: normal 64px/1em 'Quando', serif;
+    width: auto;
+}
+
+#linkz {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#linkz li {
+    display: inline;
+}
+
+#linkz a {
+    font-size: 0;
+    text-decoration: none;
+}
+
+#linkz a:before {
+    font-family: "Mono Social Icons Font";
+    text-rendering: optimizeLegibility;
+    font-size: 50px;
+}
+
+.github a:before {
+    content: 'circlegithubalt';
+}
+
+.twitter a:before {
+    content: 'circletwitterbird';
+}
+
+.youtube a:before {
+    content: 'circleyoutube';
+}
