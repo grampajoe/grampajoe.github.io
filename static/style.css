@@ -20,6 +20,10 @@ header h1 {
     width: auto;
 }
 
+iframe {
+    margin: 36px auto;
+}
+
 #linkz {
     margin: 0 auto;
     text-align: center;
